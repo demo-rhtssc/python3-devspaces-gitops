@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: python3-devspaces-repository
+spec:
+  url: https://github.com/demo-rhtssc/python3-devspaces
